@@ -45,14 +45,14 @@ export const Contact = () => {
                   </Row>
                   <Row>
                   <Col size={12} sm={6} className="px-1">
-  <a 
+  {/* <a 
     href="https://www.canva.com/design/DAF-zSdLr3E/36jy8P2DNrpYcBX9pabTng/view?utm_content=DAF-zSdLr3E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h40cc7f29f0" 
     target="_blank" 
     rel="noopener noreferrer"
     className="resume-link"
   >
     <strong>Resume</strong>
-  </a>
+  </a> */}
 </Col>
 
                   </Row>

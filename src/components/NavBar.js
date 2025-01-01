@@ -47,12 +47,12 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              <Nav.Link href="https://www.canva.com/design/DAF-zSdLr3E/36jy8P2DNrpYcBX9pabTng/view?utm_content=DAF-zSdLr3E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h40cc7f29f0"  className='navbar-link'> Resume </Nav.Link>
+              {/* <Nav.Link href="https://www.canva.com/design/DAF-zSdLr3E/36jy8P2DNrpYcBX9pabTng/view?utm_content=DAF-zSdLr3E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h40cc7f29f0"  className='navbar-link'> Resume </Nav.Link> */}
 
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="www.linkedin.com/in/prabuddha-verma-8647a6265"><img src={navIcon1} alt="" /></a>
+              <a href="https://www.linkedin.com/in/prabuddha-verma-8647a6265"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/Prabuddha747?tab=repositories"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/prabuddha_verma/"><img src={navIcon3} alt="" /></a>
               </div>

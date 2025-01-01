@@ -4,7 +4,7 @@ import projImg1 from "../assets/img/route.png";
 import projImg2 from "../assets/img/pixel.png";
 import projImg3 from "../assets/img/to_dolist.png";
 import projImg4 from "../assets/img/crowdfunding_foss.png";
-import projImg5 from "../assets/img/drought-preditction2.png";
+import projImg5 from "../assets/img/oldporfolio.png";
 import projImg6 from "../assets/img/notyet.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -21,16 +21,16 @@ export const Projects = () => {
     },
     
     {
-      title: "Collaborative To-Do List using JS",
-      description: "JS based open clipboard to manage productivity and tasks as a team ",
+      title: "Collaborative To-Do List",
+      description: "JS based open clipboard to manage productivity and tasks as a team,through this mini project I took my first step to dwell in the concepts of backend  ",
       imgUrl: projImg3,
       URL: "https://open-messages.onrender.com/", // Replace with actual URL
     },
     {
-      title: "PIXEL- A talk bot leveraging JS's Speech Recognisation feature",
-      description: "The talk bot takes voice commands to provide information on weather,enables google searches and many other features.",
+      title: "PIXEL- A bot leveraging Speech Recognisation feature",
+      description: "The talk bot takes voice commands to provide information on weather,enables google searches and many other features.Scrbble pad hackathon project.",
       imgUrl: projImg2,
-      URL: "https://pixel-ai-bot.vercel.app/", // Replace with actual URL
+      URL: "https://drive.google.com/file/d/17dWqIbWzXKPUoM4eLB9sAxLPUYJ3BKwK/view?usp=drive_link", // Replace with actual URL
     },
     {
       title: "Crowd Funding UI to support small business",
@@ -39,10 +39,10 @@ export const Projects = () => {
       URL: "https://crowd-lifting-foss.vercel.app/", // Replace with actual URL
     },
     {
-      title: "Drought Prediction in India",
-      description: "Video Link to my ML app that aims at Drought prediction for next 100 years in diferent regions of india ",
+      title: "Static Portfolio",
+      description: "Check out my old portfolio which has collections of few of my early Python and ML projects too.",
       imgUrl: projImg5,
-      URL: "https://drive.google.com/drive/folders/1oM_NdnA_Z2jlTisz7QurbavcDARTJz6h?zx=onq8lxpwc2mb", // Replace with actual URL
+      URL: "https://introduction-lilac.vercel.app", // Replace with actual URL
     },
     {
       title: "Future",
@@ -61,7 +61,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>Here are a few of my projects which I have done over the past years.</p>
+                  <p>Here are a few of my projects which I have done over the past years. Click on them to know more on them.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
